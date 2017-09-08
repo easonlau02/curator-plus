@@ -17,3 +17,4 @@ RUN mkdir -p /var/log/curator/ && \
 WORKDIR /repo/
 
 CMD ["/repo/startcron.sh"]
+
