@@ -1,0 +1,17 @@
+curator:
+  image: eason02/curator:5.2.0
+  container_name: curator-5.2.0
+  labels:
+    io.rancher.container.pull_image: always
+    io.rancher.container.hostname_override: container_name
+  restart: always
+  environment:
+    - env=prod
+  volumes:
+    - /var/log/curator/:/repo/curator-log
+  logging:
+    driver: json-file
+    options:
+      max-file: '5'
+      max-size: 10m
+  net: host

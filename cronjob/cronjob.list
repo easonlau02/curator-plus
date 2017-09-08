@@ -1,0 +1,1 @@
+0 12 * * *  curator --config /repo/curator/delete_index_by_timestring.yml  /repo/action_file/curator.yml >> /var/log/curator/curator.log 2>&1
