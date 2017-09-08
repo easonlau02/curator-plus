@@ -1,6 +1,6 @@
-curator:
-  image: eason02/curator:5.2.0
-  container_name: curator-5.2.0
+curator-plus:
+  image: eason02/curator-plus:5.2.0
+  container_name: curator-plus-5.2.0
   labels:
     io.rancher.container.pull_image: always
     io.rancher.container.hostname_override: container_name
