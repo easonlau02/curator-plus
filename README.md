@@ -33,11 +33,11 @@ CONTAINER ID        IMAGE                        COMMAND                CREATED 
 2d4e84fd42f8        eason02/curator-plus:5.2.0   "/repo/startcron.sh"   2 seconds ago       Up 1 seconds                            curator-plus-5.2.0
 ```
 
-## You can customized this image by your Docker file
+## Customized image by your Dockerfile
 ```
 FROM eason02/curator-plus:latest
 ```
 
-## Welcome to feedback and new requirement
+## Feedback and new requirement
 1. Fork it (https://github.com/easonlau02/curator-plus/fork)
 2. Comment below/requirement or [raise issue](https://github.com/easonlau02/curator-plus/issues)
