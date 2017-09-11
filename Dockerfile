@@ -1,3 +1,4 @@
+# build for eason02/curator-plus:latest
 FROM eason02/alpine-pip:latest
 
 MAINTAINER Eason Lau <eason.lau02@hotmail.com>

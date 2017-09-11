@@ -1,7 +1,7 @@
 version: '2'
 services:
   curator-plus:
-    image: eason02/curator-plus:5.2.0
+    image: eason02/curator-plus:latest
     container_name: curator-plus-5.2.0
     labels:
       io.rancher.container.pull_image: always
